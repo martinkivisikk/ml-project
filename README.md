@@ -26,3 +26,38 @@ Access from:
 [Jupyter](http://localhost:8888/)
 
 [Streamlit](http://localhost:8501/)
+
+## Structure
+
+```
+ml-project/
+│
+├── README.md                 
+├── requirements.txt           
+├── .env              
+├── Dockerfile 
+├── compose.yml
+│
+├── data/
+│   ├── raw/                   # Original input data 
+│   ├── processed/             # Cleaned and preprocessed datasets
+│   └── README.md              # Description of datasets and sources
+│
+├── notebooks/
+│   └── 01_exploratory_analysis.ipynb     # Initial analysis
+│
+├── src/
+│   ├── data/
+│   │   └── .. .py            
+│   │
+│   ├── models/
+│   │   └── .. .py            
+│   │
+│   ├── visualization/
+│   │   └── .. .py            
+│   │
+│   └── config/
+│       └── settings.py      
+│
+└── reports/
+```
