@@ -9,7 +9,7 @@ git clone https://github.com/martinkivisikk/ml-project.git
 ```bash
 cd ml-project
 ```
-2. Copy default environment variables
+2. Copy environment variables (Default values are provided, you might want to set your own Jupyter token)
 ```bash
 cp .env.example .env
 ```
@@ -23,7 +23,7 @@ docker compose up -d
 ```
 Access from:
 
-[Jupyter](http://localhost:8888/)
+[Jupyter](http://localhost:8888/) (Token is configurable in the environment file)
 
 [Streamlit](http://localhost:8501/)
 
