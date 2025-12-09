@@ -9,3 +9,5 @@ xgboost
 statsmodels
 ipykernel
 pmdarima
+mlforecast
+lightgbm
