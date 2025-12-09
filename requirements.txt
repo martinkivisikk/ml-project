@@ -6,3 +6,6 @@ plotly
 streamlit
 jupyterlab
 xgboost
+statsmodels
+ipykernel
+pmdarima
