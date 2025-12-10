@@ -10,4 +10,5 @@ statsmodels
 ipykernel
 pmdarima
 mlforecast
+statsforecast
 lightgbm
